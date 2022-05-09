@@ -1,6 +1,7 @@
 [[redirects]]
   from = "/*"
-  to = "https://service.prerender.io/https://yp-todo-ssr.netlify.app/"
+  to = "https://service.prerender.io/https://yp-todo-ssr.netlify.app/:splat"
   status = 200
   force = true
+  conditions = {Headers = { "User-Agent": "googlebot" }}
   headers = {X-Prerender-Token = "SYLrXoR088zkCXfzZVOC"}
