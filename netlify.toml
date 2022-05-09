@@ -1,6 +1,6 @@
 [[redirects]]
   from = "/*"
-  to = "https://service.prerender.io/https://yp-todo-ssr.netlify.app/:splat"
+  to = "https://service.prerender.io/https://yp-todo-ssr.netlify.app/"
   status = 200
   force = true
   headers = {X-Prerender-Token = "SYLrXoR088zkCXfzZVOC"}
