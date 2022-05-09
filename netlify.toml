@@ -1,0 +1,6 @@
+[[redirects]]
+  from = "/*"
+  to = "https://service.prerender.io/https://magenta-strudel-bba55a.netlify.app/"
+  status = 200
+  force = true
+  headers = {X-Prerender-Token = "SYLrXoR088zkCXfzZVOC"}
