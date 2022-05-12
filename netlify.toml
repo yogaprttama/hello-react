@@ -2,5 +2,5 @@
   from = "*"
   to = "https://service.prerender.io/https://yp-todo-ssr.netlify.app/"
   status = 200
-  conditions = {Headers = { "User-Agent": "googlebot" }}
+  conditions = {User-Agent = ["googlebot"]}
   headers = {X-Prerender-Token = "SYLrXoR088zkCXfzZVOC"}
