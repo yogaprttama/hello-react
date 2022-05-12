@@ -1,5 +1,11 @@
 [[redirects]]
   from = "/*"
+  to = "index.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/*"
   to = "https://service.prerender.io/https://yp-todo-ssr.netlify.app/"
   status = 200
   force = true
